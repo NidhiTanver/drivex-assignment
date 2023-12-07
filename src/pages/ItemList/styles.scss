@@ -1,0 +1,47 @@
+.button-wrapper {
+  margin-bottom: 24px;
+  width: 100%;
+  .item-button {
+    width: 100%;
+    text-align: left;
+  }
+}
+.header {
+  padding: 16px 0px;
+  margin-bottom: 24px;
+  .heading {
+    text-align: center;
+    color: #0394fc;
+    margin-bottom: 16px;
+  }
+}
+
+.pagination {
+  list-style: none;
+  height: 31.5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.page-item {
+  list-style: none;
+  padding: 2px 12px;
+  height: 31.5px;
+  width: 31.5px;
+  margin: 0 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+  background-color: rgb(184, 193, 204);
+  border-radius: 50%;
+}
+
+.active {
+  background-color: #888;
+  border-radius: 50%;
+}
